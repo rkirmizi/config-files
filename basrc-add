@@ -1,5 +1,5 @@
 #add these lines to bashrc
-export PATH=$PATH:~/.bin
+export PATH=$PATH:$HOME/.bin
 alias scrotal="scrot '%Y-%m-%d_$wx$h_scrot.png' -e 'mv $f ~/Resimler/screenshots/'"
 PS1='\[\e[32m\][\u@\h]\[\e[0m\]\[\e[37m\]\[\e[0m\]\[\e[33m\][\W]\[\e[0m\]'
 export PYTHONPATH=$PYTHONPATH:$HOME/sourcebox/pythonlibs
